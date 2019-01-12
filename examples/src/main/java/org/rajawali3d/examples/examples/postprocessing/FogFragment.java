@@ -1,8 +1,8 @@
 package org.rajawali3d.examples.examples.postprocessing;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
 import android.view.animation.AccelerateDecelerateInterpolator;
+
 import org.rajawali3d.Object3D;
 import org.rajawali3d.animation.Animation;
 import org.rajawali3d.animation.TranslateAnimation3D;
@@ -15,6 +15,8 @@ import org.rajawali3d.materials.methods.DiffuseMethod;
 import org.rajawali3d.materials.plugins.FogMaterialPlugin;
 import org.rajawali3d.materials.textures.Texture;
 import org.rajawali3d.math.vector.Vector3;
+
+import androidx.annotation.Nullable;
 
 public class FogFragment extends AExampleFragment {
 

@@ -2,7 +2,7 @@ package org.rajawali3d.examples.examples.general;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+
 import org.rajawali3d.animation.Animation;
 import org.rajawali3d.animation.RotateOnAxisAnimation;
 import org.rajawali3d.examples.examples.AExampleFragment;
@@ -14,6 +14,8 @@ import org.rajawali3d.primitives.Line3D;
 import org.rajawali3d.view.ISurface;
 
 import java.util.Stack;
+
+import androidx.annotation.Nullable;
 
 public class LinesFragment extends AExampleFragment {
 

@@ -2,7 +2,7 @@ package org.rajawali3d.examples.examples.general;
 
 import android.app.Activity;
 import android.content.Context;
-import android.support.annotation.Nullable;
+
 import org.rajawali3d.Object3D;
 import org.rajawali3d.cameras.ArcballCamera;
 import org.rajawali3d.debug.DebugVisualizer;
@@ -13,6 +13,8 @@ import org.rajawali3d.lights.DirectionalLight;
 import org.rajawali3d.loader.LoaderAWD;
 import org.rajawali3d.materials.Material;
 import org.rajawali3d.materials.methods.DiffuseMethod;
+
+import androidx.annotation.Nullable;
 
 /**
  * Drag to rotate and pinch to zoom.

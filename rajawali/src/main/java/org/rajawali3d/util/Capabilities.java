@@ -17,12 +17,13 @@ import android.opengl.EGLExt;
 import android.opengl.GLES20;
 import android.os.Build;
 import android.os.Build.VERSION_CODES;
-import android.support.annotation.NonNull;
 
 import javax.microedition.khronos.egl.EGL10;
 import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.egl.EGLContext;
 import javax.microedition.khronos.egl.EGLDisplay;
+
+import androidx.annotation.NonNull;
 
 
 /**

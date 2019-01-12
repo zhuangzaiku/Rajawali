@@ -1,8 +1,8 @@
 package org.rajawali3d.materials.shaders;
 
-import android.support.test.filters.SmallTest;
-
 import org.junit.Test;
+
+import androidx.test.filters.SmallTest;
 
 import static org.junit.Assert.assertEquals;
 

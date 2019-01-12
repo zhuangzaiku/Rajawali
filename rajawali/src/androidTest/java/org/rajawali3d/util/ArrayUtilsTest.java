@@ -1,11 +1,10 @@
-package org.rajawali3d.utils;
-
-import android.support.test.filters.SmallTest;
+package org.rajawali3d.util;
 
 import org.junit.Test;
-import org.rajawali3d.util.ArrayUtils;
 
 import java.util.Arrays;
+
+import androidx.test.filters.SmallTest;
 
 import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;

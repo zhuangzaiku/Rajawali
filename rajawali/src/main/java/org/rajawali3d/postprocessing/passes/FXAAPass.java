@@ -9,6 +9,8 @@ import org.rajawali3d.renderer.RenderTarget;
 import org.rajawali3d.renderer.Renderer;
 import org.rajawali3d.scene.Scene;
 
+import androidx.annotation.NonNull;
+
 /**
  * Adds a Fast Approximate Antialiasing (FXAA) post processing pass to the scene. The implementation is taken from
  * <a href="http://www.geeks3d.com/20110405/fxaa-fast-approximate-anti-aliasing-demo-glsl-opengl-test-radeon-geforce/">Geeks 3D</a>.

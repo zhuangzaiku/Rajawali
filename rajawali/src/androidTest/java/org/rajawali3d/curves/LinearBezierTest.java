@@ -1,6 +1,6 @@
 package org.rajawali3d.curves;
 
-import android.support.test.filters.SmallTest;
+import androidx.test.filters.SmallTest;
 
 import org.junit.Test;
 import org.rajawali3d.math.vector.Vector3;

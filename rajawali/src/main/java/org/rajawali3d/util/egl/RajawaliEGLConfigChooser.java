@@ -4,7 +4,7 @@ import android.annotation.TargetApi;
 import android.opengl.EGLExt;
 import android.opengl.GLSurfaceView;
 import android.os.Build;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import org.rajawali3d.view.ISurface;
 
 import javax.microedition.khronos.egl.EGL10;

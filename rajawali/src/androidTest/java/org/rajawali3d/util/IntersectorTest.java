@@ -1,11 +1,10 @@
 package org.rajawali3d.util;
 
-import android.support.test.filters.SmallTest;
-
 import org.junit.Test;
 import org.rajawali3d.math.Plane;
 import org.rajawali3d.math.vector.Vector3;
-import org.rajawali3d.util.Intersector;
+
+import androidx.test.filters.SmallTest;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -17,7 +16,7 @@ import static org.junit.Assert.assertTrue;
 public class IntersectorTest {
 
     @Test
-    public void testIntersectRayPlane() throws Exception {
+    public void testIntersectRayPlane() {
         Vector3 rayStart = new Vector3(0, 0, 0);
         Vector3 rayEnd = new Vector3(1, 1, 1);
         Plane plane = new Plane();
@@ -31,7 +30,7 @@ public class IntersectorTest {
     }
 
     @Test
-    public void testIntersectRayTriangle() throws Exception {
+    public void testIntersectRayTriangle() {
         Vector3 rayStart = new Vector3(0, 0, 0);
         Vector3 rayEnd = new Vector3(1, 1, 1);
         Vector3 t1 = new Vector3(1, 0, 0);
@@ -48,7 +47,7 @@ public class IntersectorTest {
     }
 
     @Test
-    public void testIntersectRaySphere() throws Exception {
+    public void testIntersectRaySphere() {
         Vector3 rayStart = new Vector3(0, 0, 0);
         Vector3 rayEnd = new Vector3(1, 1, 1);
         Vector3 sphereCentre = new Vector3(1, 1, 1);

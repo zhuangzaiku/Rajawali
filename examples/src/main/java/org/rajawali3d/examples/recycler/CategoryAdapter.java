@@ -3,7 +3,6 @@ package org.rajawali3d.examples.recycler;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
-import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,6 +16,8 @@ import org.rajawali3d.examples.data.INamed;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Locale;
+
+import androidx.annotation.NonNull;
 
 @SuppressWarnings("unchecked")
 public final class CategoryAdapter extends ReferencedAdapter<INamed, NamedReferenceViewHolder, NamedIndexReference<INamed>> implements NamedReferenceViewHolder.IndexReferenceClickListener {

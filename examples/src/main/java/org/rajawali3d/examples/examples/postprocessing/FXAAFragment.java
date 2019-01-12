@@ -2,13 +2,13 @@ package org.rajawali3d.examples.examples.postprocessing;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
+
 import org.rajawali3d.Object3D;
 import org.rajawali3d.animation.Animation;
 import org.rajawali3d.animation.Animation3D;
@@ -20,6 +20,8 @@ import org.rajawali3d.math.vector.Vector3;
 import org.rajawali3d.postprocessing.PostProcessingManager;
 import org.rajawali3d.postprocessing.passes.FXAAPass;
 import org.rajawali3d.postprocessing.passes.RenderPass;
+
+import androidx.annotation.Nullable;
 
 public class FXAAFragment extends AExampleFragment {
 

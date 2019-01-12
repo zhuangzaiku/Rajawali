@@ -1,7 +1,7 @@
 package org.rajawali3d.examples.examples.loaders;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
+
 import org.rajawali3d.Object3D;
 import org.rajawali3d.animation.Animation;
 import org.rajawali3d.animation.Animation3D;
@@ -10,6 +10,8 @@ import org.rajawali3d.examples.R;
 import org.rajawali3d.examples.examples.AExampleFragment;
 import org.rajawali3d.loader.LoaderAWD;
 import org.rajawali3d.math.vector.Vector3;
+
+import androidx.annotation.Nullable;
 
 public class AwdFragment extends AExampleFragment {
 

@@ -1,9 +1,11 @@
 package org.rajawali3d.examples.examples.animation;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
+
 import org.rajawali3d.examples.examples.AExampleFragment;
 import org.rajawali3d.examples.examples.animation.particles.ExampleParticleSystem2;
+
+import androidx.annotation.Nullable;
 
 public class AnimatedSpritesFragment extends AExampleFragment {
 

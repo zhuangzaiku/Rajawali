@@ -6,7 +6,7 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
+
 import org.rajawali3d.Object3D;
 import org.rajawali3d.examples.R;
 import org.rajawali3d.examples.examples.AExampleFragment;
@@ -16,6 +16,8 @@ import org.rajawali3d.materials.Material;
 import org.rajawali3d.materials.methods.DiffuseMethod;
 import org.rajawali3d.materials.textures.CubeMapTexture;
 import org.rajawali3d.math.vector.Vector3;
+
+import androidx.annotation.Nullable;
 
 public class AccelerometerFragment extends AExampleFragment implements
     SensorEventListener {

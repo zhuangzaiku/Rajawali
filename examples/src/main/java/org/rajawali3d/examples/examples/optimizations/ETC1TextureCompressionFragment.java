@@ -1,7 +1,7 @@
 package org.rajawali3d.examples.examples.optimizations;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
+
 import org.rajawali3d.Object3D;
 import org.rajawali3d.examples.R;
 import org.rajawali3d.examples.examples.AExampleFragment;
@@ -10,6 +10,8 @@ import org.rajawali3d.materials.textures.ATexture;
 import org.rajawali3d.materials.textures.Etc1Texture;
 import org.rajawali3d.materials.textures.Texture;
 import org.rajawali3d.primitives.Plane;
+
+import androidx.annotation.Nullable;
 
 public class ETC1TextureCompressionFragment extends AExampleFragment {
 

@@ -2,13 +2,13 @@ package org.rajawali3d.examples.examples.general;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
 import org.rajawali3d.curves.CatmullRomCurve3D;
 import org.rajawali3d.curves.CompoundCurve3D;
 import org.rajawali3d.curves.CubicBezierCurve3D;
@@ -22,6 +22,8 @@ import org.rajawali3d.math.vector.Vector3;
 import org.rajawali3d.primitives.Line3D;
 
 import java.util.Stack;
+
+import androidx.annotation.Nullable;
 
 public class CurvesFragment extends AExampleFragment {
 

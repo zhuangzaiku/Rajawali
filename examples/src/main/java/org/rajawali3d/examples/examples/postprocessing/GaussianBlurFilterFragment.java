@@ -13,7 +13,7 @@
 package org.rajawali3d.examples.examples.postprocessing;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
+
 import org.rajawali3d.animation.Animation;
 import org.rajawali3d.animation.RotateOnAxisAnimation;
 import org.rajawali3d.examples.examples.AExampleFragment;
@@ -28,6 +28,8 @@ import org.rajawali3d.postprocessing.passes.RenderPass;
 import org.rajawali3d.primitives.Cube;
 
 import java.util.Random;
+
+import androidx.annotation.Nullable;
 
 public class GaussianBlurFilterFragment extends AExampleFragment {
 	@Override

@@ -1,9 +1,9 @@
 package org.rajawali3d.curves;
 
-import android.support.test.filters.SmallTest;
-
 import org.junit.Test;
 import org.rajawali3d.math.vector.Vector3;
+
+import androidx.test.filters.SmallTest;
 
 import static org.junit.Assert.assertEquals;
 

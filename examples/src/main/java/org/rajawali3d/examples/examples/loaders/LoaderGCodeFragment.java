@@ -2,7 +2,6 @@ package org.rajawali3d.examples.examples.loaders;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -10,6 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
 import org.rajawali3d.Object3D;
 import org.rajawali3d.examples.R;
 import org.rajawali3d.examples.examples.AExampleFragment;
@@ -17,6 +17,8 @@ import org.rajawali3d.loader.LoaderGCode;
 import org.rajawali3d.materials.Material;
 import org.rajawali3d.primitives.Line3D;
 import org.rajawali3d.util.RajLog;
+
+import androidx.annotation.Nullable;
 
 public class LoaderGCodeFragment extends AExampleFragment {
 

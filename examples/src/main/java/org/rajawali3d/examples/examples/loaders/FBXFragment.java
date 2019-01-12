@@ -2,13 +2,13 @@ package org.rajawali3d.examples.examples.loaders;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
 import org.rajawali3d.Object3D;
 import org.rajawali3d.animation.Animation;
 import org.rajawali3d.animation.Animation3D;
@@ -18,6 +18,8 @@ import org.rajawali3d.examples.examples.AExampleFragment;
 import org.rajawali3d.loader.ParsingException;
 import org.rajawali3d.loader.fbx.LoaderFBX;
 import org.rajawali3d.math.vector.Vector3;
+
+import androidx.annotation.Nullable;
 
 public class FBXFragment extends AExampleFragment {
 

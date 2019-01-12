@@ -1,6 +1,6 @@
 package org.rajawali3d.animation;
 
-import android.support.test.filters.SmallTest;
+import androidx.test.filters.SmallTest;
 
 import org.junit.After;
 import org.junit.Before;

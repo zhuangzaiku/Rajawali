@@ -23,6 +23,8 @@ import org.rajawali3d.renderer.Renderer;
 import org.rajawali3d.renderer.RenderTarget;
 import org.rajawali3d.scene.Scene;
 
+import androidx.annotation.NonNull;
+
 public class CopyToNewRenderTargetPass extends EffectPass {
 	private RenderTarget mRenderTarget;
 

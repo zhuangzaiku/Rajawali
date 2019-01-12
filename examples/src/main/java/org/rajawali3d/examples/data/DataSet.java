@@ -1,7 +1,5 @@
 package org.rajawali3d.examples.data;
 
-import android.support.annotation.NonNull;
-
 import com.rajawali3d.examples.data.DataSetImpl;
 
 import org.rajawali3d.examples.R;
@@ -79,6 +77,8 @@ import org.rajawali3d.examples.examples.ui.ViewToTextureFragment;
 
 import java.util.LinkedList;
 import java.util.List;
+
+import androidx.annotation.NonNull;
 
 public final class DataSet {
 

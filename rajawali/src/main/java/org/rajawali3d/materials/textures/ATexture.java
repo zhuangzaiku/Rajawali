@@ -14,13 +14,15 @@ package org.rajawali3d.materials.textures;
 
 import android.graphics.Bitmap.Config;
 import android.opengl.GLES20;
-import android.support.annotation.NonNull;
+
 import org.rajawali3d.materials.Material;
 import org.rajawali3d.renderer.Renderer;
 
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
+
+import androidx.annotation.NonNull;
 
 public abstract class ATexture {
 	/**

@@ -1,7 +1,7 @@
 package org.rajawali3d.examples.examples.general;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
+
 import org.rajawali3d.Object3D;
 import org.rajawali3d.animation.Animation;
 import org.rajawali3d.animation.Animation3D;
@@ -14,6 +14,8 @@ import org.rajawali3d.materials.Material;
 import org.rajawali3d.materials.methods.DiffuseMethod;
 import org.rajawali3d.math.vector.Vector3;
 import org.rajawali3d.primitives.Cube;
+
+import androidx.annotation.Nullable;
 
 public class CollisionDetectionFragment extends AExampleFragment {
 

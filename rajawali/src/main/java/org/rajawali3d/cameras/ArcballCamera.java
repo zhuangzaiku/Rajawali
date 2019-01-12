@@ -7,8 +7,6 @@ import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
 import android.view.View;
 
-import android.support.annotation.FloatRange;
-
 import org.rajawali3d.Object3D;
 import org.rajawali3d.math.MathUtil;
 import org.rajawali3d.math.Matrix4;
@@ -16,8 +14,9 @@ import org.rajawali3d.math.Quaternion;
 import org.rajawali3d.math.vector.Vector2;
 import org.rajawali3d.math.vector.Vector3;
 
+import androidx.annotation.FloatRange;
+
 /**
- *
  * @author dennis.ippel
  */
 public class ArcballCamera extends Camera {
